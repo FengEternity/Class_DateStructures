@@ -1,0 +1,609 @@
+﻿1. A. B. C. D. 
+E. 数据的（C ）是面向计算机的数据结构逻辑结构物理结构线性结构非线性结构 
+2. （C ）是组成数据的基本单位。 
+A. 数据项 B. 数据对象 C. 数据元素 D. 数据类型 E. 操作 F. 抽象数据类 
+3. （B ）特点是：信息隐蔽和数据封装，使用与实现相分离。 
+A. 操作 B. 抽象数据类型 C. 数据元素 D. 数据 
+4. 下面程序段执行时，语句S 的执行次数为：（D 
+） A. n2 B. n2/2 C. n （n+1） D. n(n+1)/2 
+5. 下面程序段的时间复杂度为：（B 
+） A. O （1) B. O （n） C. O （n2） D. O （n! ） 
+6. 一个算法的时间复杂度为(3n2+2nlog2n+4n-7)/(5n)，其数量级表示为：（C） 
+A. O （n2） B. O （nlog2n) C. O （n） D. O （log2n ） 
+7. 在下面程序段中，s=s+p语句的执行次数为：（E 
+） A. n2 B. n2/2 C. n （n+1） D. n(n+1)/2 E. n F. n/2 
+8. 下面程序段的时间复杂度为：（C 
+） A. O （1） B. O （n） C. O （n2） D. O （n! ） 9. A. B. C. 
+D. 在线性表的下列运算中，不改变数据元素之间结构关系的运算是（D ）插入删除排序定位 
+10. 线性表采用链式存储时，其地址（D） 
+A. 必须是连续的 B. 一定是不连续的 C. 部分地址必须是连续的 D. 连续与否均可以 
+11. 线性表L在(B)情况下适用于使用链式结构实现。 
+A. 需经常修改Ｌ中的结点值 B. 需不断对Ｌ进行删除插入 C. L 中含有大量的结点 D. L 中结点结构复杂 
+12. 设单链表中结点的结构为（data,link ），单链表中指针p 指向结点m ，若要删除m 之后的结点（若存在），则需修改指针的操作为（A） 
+A. p->Link=p->Link->Link; B. p=p->Link; C. p=p->Link->Link; D. p->Link=p; 
+13. 在顺序表中，只要知道(D)，就可在相同时间内求出任一表项的存储地址。 
+A. 基地址 B. 表项序号 C. 向量大小 D. 基地址和表项序号 
+14. 在一个具有n 个结点的有序单链表中插入一个新结点并保持该表有序的时间复杂度是 
+(B)。 A. O(1) B. O(n) C. O(n2) D. O(log2n) 
+15. 在一个链式队列中，假定front 和rear 分别为队头和队尾指针，则删除一个结点的操作为___A. 
+B. C. 
+D. front=front->nextrear=rear->nextrear=front->nextfront=rear->next 
+正确答案：A 答题错误 
+15. 在一个具有n 个单元的顺序栈中，假定用top==n表示栈空，则向这个栈插入一个元素时，首先应执行（B ）语句修改top 指针。 
+A. top++ B. top-- C. top=0 D. top 
+16. 在具有n 个单元的顺序存储的循环队列中，假定front 和rear 分别为队头指针和队尾指针，则判断队空的条件为（C ）。 
+A. rear ％n ==front B. front+l==rear C. rear ==front D. (rear+l)％n ==front 
+17. 队列的插入操作在（B ）进行。 
+A. 队头 B. 队尾 C. 任意位置 D. 指定位置 
+18. 设有一个递归算法如图，正确的叙述是（B 
+） 
+A. 计算fact （n ）需要执行n 次递归 
+B. fact （7）=5040 
+C. 此递归算法最多只能计算到fact （8） 
+D. 以上结论都不对 
+19. 设有一个递归算法如图，正确的叙述是（B 
+） A. maze(1020,10,7)=356 B. maze(352,4,11)=16214 C. maze(16,2,2)=8 D. 以上三个答案都不对 
+20. 设二维数组A[0…m-1][0…n-1]按行优先顺序存储在内存中，第一个元素的地址为p ，每个元素占k 个字节，则元素aij 的地址为（A ）。 
+A. p +[i*n+j]*k B. p+[(i-1)*n+j-1]*k C. p+[(j-1)*n+i-1]*k D. p+[j*n+i-1]*k 
+21. 若数组A[0…m][0…n]按列先顺序存储，则aij 地址为（D ）。 
+A. LOC(a00)+[(j-1)*m+i-1] B. LOC(a00)+[j*n+i] C. LOC(a00)+[(j-1)*n+i-1] D. LOC(a00)+[j*m+i] 
+22. 数组A 中，每个元素的长度为3个字节，行下标i 从1到8，列下标j 从1到10，从首地址SA 开始连续存放在存储器内，该数组按行存放时，元素A[8][5]的起始地址为（C ）。 
+A. SA+141 B. SA+144 C. SA+222 D. SA+225 
+23. 稀疏矩阵可以采用（B ）的压缩存储方法。 
+A. 二维数组 B. 三元组 C. 跳表 D. 散列 
+24. 数组就是矩阵，矩阵就是数组，这种说法（B ）。 
+A. 正确 B. 错误 C. 前句对，后句错 D. 后句对 
+25. 广义表D （a, b, D ），其长度为（B ）。 
+A. ∞ B. 3 C. 2 D. 5 
+26. 一个广义表的表尾总是一个（A ）。 
+A. 广义表 B. 元素 C. 空表 D. 元素或广义表 
+27. 下面的说法中，只有（C ）是正确的。 
+A. 字符串的长度是指串中包含的字母的个数 
+B. 字符串的长度是指串中包含的不同字符的个数 
+C. 若T 包含在S 中，则T 一定是S 的一个子串 
+D. 一个字符串不能说是其自身的一个子串 
+28. 两个字符串相等的条件是（D ）。 
+A. 两串的长度相等 B. 两串包含的字符相同 
+C. 两串的长度相等，并且两串包含的字符相同 
+D. 两串的长度相等，并且对应位置上的字符相同 
+29. 用顺序存储的方法将完全二叉树中的所有结点逐层存放在数组中R[1..n]，结点R[i]若有左孩子，其左孩子的编号为结点（B ）。 
+A. R[2i+1] B. R[2i] C. R[i/2] D. R[2i-1] 
+30. 由权值分别为3,8,6,2,5的叶子结点生成一棵哈夫曼树，它的带权路径长度为（D ）。 
+A. 24 B. 48 C. 72 D. 53 
+31. 设n , m 为一棵二叉树上的两个结点，在中序遍历序列中n 在m 前的条件是（B ）。 
+A. n 在m 右方 B. n 在m 左方 C. n 是m 的祖先 D. n 是m 的子孙 
+32. 根据先序序列ABDC 和中序序列DBAC 确定对应的二叉树，该二叉树（A ）。 
+A. 是完全二叉树 B. 不是完全二叉树 C. 是满二叉树 D. 不是满二叉树 
+33. 为提高对有序链表的搜索效率，建议采用（C ）数据结构。 
+A. 集合 B. 字典 C. 跳表 D. 散列 
+34. 采用开散列法解决冲突时，每一个散列地址所链接的同义词表中各个表项的（C ）相同。 
+A. 关键码值 B. 元素值 C. 散列地址 D. 含义 
+32. 对一棵二叉搜索树进行（）遍历时，得到的结点序列是一个有序序列。A. 前序 
+B. C. D. 中序后序层次 正确答案：B 答题错误 
+35. 依据所有数据成员之间逻辑关系的不同，数据结构分为（D 、E） 
+A. 数据结构 B. 逻辑结构 C. 物理结构 D. 线性结构 E. 非线性结构 
+36. 依据数据元素在计算机中的物理存储方式，数据结构分为（A 、B 、E 、F） 
+A. 顺序结构 B. 链式结构 C. 线性结构 D. 非线性结构 E. 索引结构 F. 散列结构 
+37. 一种抽象数据类型包括（A ）和（C） 
+A. 数据 B. 数据元素 C. 操作 D. 数据类型 
+38. 面向对象=（A）+（B）+（E）+（F） 
+A. 对象 B. 继承 C. 操作 D. 属性 E. 类 F. 通信 
+39. 算法的五大特性是（C 、D 、F ）、输入和输出 
+A. 正确性 B. 可读性 C. 有限性 D. 确定性 E. 健壮性 
+40. 算法的性能标准是（A 、B 、E ）、高效率和低存储量。 
+A. 正确性 B. 可读性 C. 有限性 D. 确定性 E. 健壮性 F. 可行性 
+41. 线性表的顺序存储结构是一种(A、B) 的存储结构 
+A. 随机存取 B. 顺序存取 C. 索引存取 D. 散列存取 
+42. 在Hanoi 塔问题中，若A 塔上有3片圆盘，都要搬到C 塔上去，则下列语句（A 、D ）是错误的。 
+A. 第一步将最小圆盘从A 塔搬到B塔 
+B. 第四步将最大圆盘从A 塔搬到C塔 
+C. 第七步将最小圆盘从A 塔搬到C塔 
+D. 需要8次才能完成工作 
+43. 下列说法正确的有：（B 、D 、F） 
+A. 二叉树中每个结点的度不能超过2，所以二叉树是一种特殊的树。 
+B. 二叉树的前序遍历中，任意结点均处在其子女结点之前。 
+C. 线索二叉树是一种逻辑结构。 
+D. 哈夫曼树的总结点个数（多于1时）不能为偶数。 
+E. 由二叉树的先序序列和后序序列可以唯一确定一颗二叉树。 
+F. 当从一个最小堆中删除一个元素时，需要把堆尾元素填补到堆顶位置，然后再按条件把它逐层向下调整，直到调整到合适位置为止。 
+44. 下列说法正确的有：（A 、B 、C） 
+A. 树的后序遍历与其对应的二叉树的后序遍历序列相同。 
+B. 根据任意一种遍历序列即可唯一确定对应的二叉树。 
+C. 满二叉树也是完全二叉树。 D. 哈夫曼树一定是完全二叉树。 E. 树的子树是无序的。 
+F. 对于一棵具有n 个结点，其高度为h 的二叉树，进行任一种次序遍历的时间复杂度为O （h ）。 
+45. 集合是（B 、D ）。 A. 有序的 B. 无序的 C. 线性的 
+46. 字典可以进行（E 、F 、G ）操作。 
+A. 交 B. 并 C. 差 D. 相等判断 E. 插入 F. 删除 G. 判断表项是否存在 
+47. 字典可以采用（A 、C 、D ）组织方式 
+A. 线性表 B. 集合 C. 散列表 D. 跳表 
+48. 下列说法正确的有：（A 、D） 
+A. 理想情况下，在散列表中搜索一个元素的时间复杂度为Ｏ（１）。 
+B. 在散列法中，一个可用的散列函数必须保证绝对不产生冲突。 
+C. 在散列法中，采取开散列法来解决冲突时，其装载因子的取值一定在（０，１）之间。 
+D. 在散列法中，采取闭散列法来解决冲突时，一般不要立刻做物理删除，否则在搜索时会发生错误。 
+49. 下列说法正确的有：（A 、B 、E 、F） 
+A. 线性结构只能用顺序结构来存放，非线性结构只能用非顺序结构来存放。 
+B. 算法就是程序。 C. 数据元素是数据的最小单位。 
+D. 数据结构是具有结构的数据对象。 
+E. 数据结构是数据对象与对象中数据元素之间关系的集合。 
+F. 数据的逻辑结构是指各数据元素之间的逻辑关系，是用户按使用需要建立的。 
+50. 下列说法正确的有：（B 、C 、E） 
+A. 算法和程序原则上没有区别，在讨论数据结构时二者通用。 
+B. 从逻辑关系上讲，数据结构分为两大类：线性结构和非线性结构。 
+C. 所谓数据的逻辑结构是指数据元素之间的逻辑关系。 
+D. 同一数据逻辑结构中的所有数据元素都具有相同的特性是指数据元素所包含的数据项的个数相等。 
+E. 数据的逻辑结构与数据元素本身的内容和形式无关。 
+F. 数据结构是指相互之间存在一种或多种关系的数据元素的全体。 
+1. （A ）由某一数据元素的集合以及该集合中所有数据元素之间的关系组成。 
+A. 数据结构 B. 逻辑结构 D. 线性结构 E. 非线性结构 2. 数据的（B ）是面向问题的 A. 数据结构 B. 逻辑结构 C. 物理结构 D. 线性结 E. 非线性结构 
+4. 在（D ）中的各个数据成员依次排列在一个线性序列中。 
+A. 数据结构 B. 逻辑结构 C. 物理结构 D. 线性结构 E. 非线性结构 
+5. （E ）中的各个数据成员不在一个线性序列中，数据元素成员可能与零个或多个其他数据成员发生联系。 
+A. 数据结构 B. 逻辑结构 C. 物理结构 D. 线性结构 E. 非线性结构 
+7. （A ）是有独立含义的最小单位， 
+A. 数据项 B. 数据对象 C. 数据元素 D. 数据类型 E. 操作 F. 抽象数据类型 
+8. （B ）是性质相同的数据元素的集合。 
+A. 数据项 B. 数据对象 C. 数据元素 D. 数据类型 E. 操作 F. 抽象数据类型 
+9. （C ）是描述客观事物的数值、字符以及能输入机器且能被处理的各种符号集合。 
+A. 数据项 B. 数据对象 C. 数据 D. 操作 
+10. （D ）是一组性质相同的值集合以及定义在这个值集合上的一组操作的总称 
+A. 数据 B. 数据元素 C. 操作 D. 数据类型 
+11. （D ）是指基于一类逻辑关系的数据类型以及定义在这个类型之上的一组操作 
+A. 数据 B. 操作 C. 数据元素 D. 抽象数据类型 
+12. （D ）包括数据对象、结构关系和基本操作 
+A. 数据 B. 操作 C. 数据元素 D. 抽象数据类型 
+13. （D ）特点是：信息隐蔽和数据封装，使用与实现相分离。 
+A. 操作 B. 抽象数据类型 C. 数据元素 D. 数据 
+14. 下面程序段的时间复杂度为：（C 
+） A. O （m2） B. O （n2） C. O （m*n） D. O （m+n） 
+19. 在下面程序段中，p*=j语句的执行次数为：（D） 
+A. n2 B. n2/2 C. n （n+1） D. n(n+1)/2 E. n F. n/2 21. 算法分析的目的是（B） A. 辨别数据结构的合理性 B. 评价算法的效率 C. 研究算法中输入与输出的关系 D. 鉴别算法的可读性 
+10. 设单循环链表中结点的结构为（data,link ），且rear 是指向非空的带表头结点的单循环链表的尾结点指针。若想删除链表第一个结点，应执行（D ）操作。 
+A. s=rear;rear=rear->link;delete s; 
+B. rear=rear->link;delete s; 
+C. rear=rear->link->link;delete s; 
+D. s=rear->link->link;rear->link->link=s->link；delete s; 
+7. 设双向循环链表中结点的结构为（data,lLink,rLink ），在双向循环链表中，在p 所指的结点之后插入s 指针所指的结点，其操作是____。A. 
+B. C. 
+D. p->rLink=s;s->lLink=p;p->rLink->lLink=s;s->rLink=p->rLink;s->lLink=p;s->rLink=p->rLink;p->rLink=s;p->rLink->lLink=s;p->rLink=s;p->rLink->lLink=s;s->lLink=p;s->rLink=p->rLink;s->lLink=p;s->rLink=p->rLink;p->rLink->lLink=s;p->rLink=s; 
+正确答案：D 答题错误 
+11. 设单链表中结点的结构为（data,link ），单链表中指针p 所指结点不是尾结点，若在*p之后插入结点*s，应执行（B ）操作。 
+A. s->Link=p;p->Link=s； B. s->Link=p->Link;p->Link=s； C. s->Link=p->Link;p =s； D. p->Link=s；s->Link=p； 
+12. 在一个长度为n 的顺序表中向第i 个元素(0 
+A. n-i B. n-i+l C. n-i-1 D. i 
+13. 以下关于线性表的说法不正确的是（C ）。 
+A. 线性表中的数据元素可以是数字、字符、记录等不同类型。 
+B. 线性表中包含的数据元素个数不是任意的。 
+C. 线性表中的每个结点都有且只有一个直接前趋和直接后继。 
+D. 存在这样的线性表：表中各结点都没有直接前趋和直接后继。 
+14. 判断一个带表头结点的双向循环链表L 是否对称相等的算法如下所示，执行（A 
+）语句 A. p=p->rLink;q=q->lLink; B. p=p->lLink=s;q=q->rLink; C. p->rLink=p;q->lLink=q; D. p->lLink=s;q->rLink=q; 
+15. 非空的循环单链表first 的尾结点（由p 所指向）满足：(C) 
+A. p->link==NULL B. p ==NULL ； C. p->link==first ； D. p ==first ； 
+16. 在一个具有n 个单元的顺序栈中，假定以地址低端（即0单元）作为栈底，以top 作为栈顶指针，当做出栈处理时，top 变化为（C ）。 
+A. top 不变 B. top=0 C. top-- D. top++ 
+17. 向一个栈顶指针为top 的链式栈中插入一个s 结点时，应执行（B ）。 
+A. top->link=s; B. s->link=top;top =s; 
+C. s->link=top->link;top->link=s; 
+D. s->link=top;top=top->link; 
+18. 在具有n 个单元的顺序存储的循环队列中，假定front 和rear 分别为队头指针和队尾指针，则判断队满的条件为（D ）。 
+A. rear ％n ==front B. （front+l）％n ==rear C. rear ％n -1==front D. (rear+l)％n ==front 
+19. 由两个栈共享一个向量空间的好处是：（B） 
+A. 减少存取时间，降低下溢发生的机率 
+B. 节省存储空间，降低上溢发生的机率 
+C. 减少存取时间，降低上溢发生的机率 
+D. 节省存储空间，降低下溢发生的机率 
+21. 通常对数组进行的两种基本操作是（C） 
+A. 建立与删除 B. 索引和修改 C. 查找和修改 D. 查找与索引 
+23. 设有广义表D=(a,b,D)，其深度为（A ）。 
+A. 无穷大 B. 3 C. 2 D. 5 
+24. 空串与空白串组成的区别在于（B ）。 
+A. 没有区别 B. 两串的长度不相等 C. 两串的长度相等 D. 两串包含的字符不相同 
+25. 一个子串在包含它的主串中的位置是指（D ）。 
+A. 子串的最后那个字符在主串中的位置 
+B. 子串的最后那个字符在主串中首次出现的位置 
+C. 子串的第一个字符在主串中的位置 
+D. 子串的第一个字符在主串中首次出现的位置 
+26. 假设在一棵二叉树中，双分支结点数为15，单分支结点数为30个，则叶子结点数为（B ）个。 
+A. 15 B. 16 C. 17 D. 47 
+28. 线索二叉树中，结点p 没有左子树的充要条件是（B ）。 
+A. p->LeftChild=NULL B. p->ltag=1 
+C. p->ltag=1且p->LeftChild =NULL 
+D. 以上都不对 
+29. 如果F 是由有序树T 转换而来的二叉树，那么T 中结点的前序就是F 中结点的（B ）。 
+A. 中序 B. 前序 C. 后序 D. 层次序 30. 下面叙述正确的是（D ）。 
+A. 二叉树的第i 层最多有2i-1个结点 
+B. 二叉树等价于度为2的树 C. 完全二叉树必为满二叉树 D. 二叉树的左右子树有次序之分 
+32. 若根据关键码(23,44,36,48,52,73,64,58)建立散列表，采用h(K)=K%7计算散列地址，则散列地址等于3的元素有(B)个。 
+A. 1 B. 2 C. 3 D. 4 
+33. 若根据关键码建立长度为m 的散列表，采用线性探测法处理冲突，假定对一个元素第一次计算的散列地址为d ，则下一次的哈希地址为(D)。 
+A. d B. d+1 C. (d+1)/m D. d+1)%m 
+34. 采用开散列法解决冲突时，每一个散列地址所链接的同义词表中各个表项的（C ）相同。 
+A. 关键码值 B. 元素值 C. 散列地址 D. 含义 
+41. 若一个图的边集为{(A,B),(A,C),(B,D),(C,F),(D,E),(D,F)}，则从顶点A 开始对该图进行广度优先搜索，得到的顶点序列可能为() 。A. 
+B. C. 
+D. A,B,C,D,E,F A,B,C,F,D,E A,B,D,C,E,F A,C,B,F,D,E 
+正确答案：D 答题错误 
+42. 已知一个有向图的边集为{,,,,,}，则由该图产生的一种可能的拓扑序列为() 。A. 
+B. C. 
+D. a,b,c,d,e a,b,d,e,b a,c,b,e,d a,c,d,b,e 
+正确答案：A 答题错误 
+45. AOE 网络如图所示，这个工程关键活动是（） 
+。A. <1,3><3,2><2,5><5,6> C. 
+D. <1,2><2,4><4,6><1,3><3,5><5,6> 
+输入答案：C 正确答案：B 答题错误 
+19. 假设在一棵二叉树中，双分支结点数为15，单分支结点数为30个，则叶子结点数为（）个。A. 
+B. C. D. 15161747 正确答案：B 答题错误 
+25. 解决散列法中出现的冲突问题常采用的方法是（）。A. 
+B. C. 
+D. 数字分析法、除留余数法、平方取中法。数字分析法、除留余数法、线性探查法。数字分析法、线性探查法、双散列法。线性探查法、双散列法、开散列法。 
+正确答案：D 答题错误 
+40. 设图的邻接表如图所示，则该图的边的数目是（ 
+）A. 4 C. D. 1020 正确答案：B 答题错误 50. 下列说法正确的有：（） A. 
+B. 关键活动不按期完成就会影响整个工程的完成时间。 
+邻接矩阵只适用于稠密图（边数接近于顶点数的平方），邻接表适用于稠密图（边数接近于顶点数的平方）。 
+C. 
+D. 有n(n≥1)个顶点的无向连通图最少有n-1条边。 
+邻接表只能用于有向图的存储，邻接矩阵对于有向图和无向图的存储都适用。输入答案： 
+正确答案：ABC 答题错误 
+7. 从一个具有n 个结点的单链表中查找其值等于x 的结点时，在查找成功的情况下，需平均比较________个元素结点。A. 
+B. C. D. n/2n (n+1）/2(n-1）/2 输入答案：B 正确答案：C 答题错误 
+15. 队列的删除操作在(）进行。A. 
+B. C. 队头队尾任意位置 D. 指定位置 输入答案：B 正确答案：A 答题错误 
+30. 从具有n 个结点的二叉搜索树中查找一个元素时，在最坏情况下的时间复杂度为( 
+A. B. C. 
+D. O(n)O(1)O(logn/log2)O(n*n)) 输入答案：C 
+正确答案：A 答题错误 
+37. 在一个具有n 个顶点和e 条边的有向图的邻接矩阵中，表示边存在的元素个数为() 。A. 
+B. C. D. n n*ee 2*e 输入答案：D 正确答案：C 答题错误 
+39. 在一个无权图的邻接表表示中，每个边结点至少包含() 域。A. 
+B. C. D. 1234 输入答案：A 正确答案：B 答题错误 
+40. 对于一个有向图，若一个顶点的度为k1，出度为k2，则对应邻接表中该顶点单链表中的边结点数为() 。A. 
+B. C. D. k1k2k1-k2k1+k2 正确答案：B 答题错误 48. 下列说法正确的有：（） 
+A. 对于同一组待输入的关键码集合，虽然各关键码的输入次序不同，但得到的二叉搜索树都是相同的。 
+B. 在二叉搜索树上插入新结点时，不必移动其它结点，仅需要改动某个结点的指针，使它由空变为非空即可。 
+C. 对于两棵具有相同关键码集合而形状不同的二叉搜索树，按中序遍历它们得到的序列的各元素的顺序是一样的 
+D. 在二叉搜索树上删除一个结点时，不必移动其它结点，只要将该结点的双亲结点的相应指针域置空即可。 
+输入答案：BD 正确答案：BC 答题错误 50. 下列说法正确的有：（） A. B. C. 
+D. 存储无向图的是对称的，因此只要存储邻接矩阵的上（下）三角部分就可以了。 
+对任何用顶点表示活动的网络（AOV 网）进行拓扑排序的结果都是唯一的。 
+强连通分量是有向图中的极大强连通子图。 
+所有的关键活动都提前完成，那么整个工程将会提前完成。 
+输入答案： 正确答案：ACD 答题错误 
+27. 设n , m 为一棵二叉树上的两个结点，在中序遍历序列中n 在m 前的条件是（）。A. 
+B. C. 
+D. n 在m 右方n 在m 左方n 是m 的祖先n 是m 的子孙 
+输入答案：C 正确答案：B 答题错误 
+41. 若用邻接矩阵表示一个有向图，则其中每一列包含的″1″的个数为（）. A. 
+B. C. 
+D. 图中每个顶点的入度图中每个顶点的出度图中弧的条数图中连通分量的数目 
+输入答案：D 正确答案：A 答题错误 
+42. 在一个具有n 个顶点和e 条边的有向图的邻接表中，保存顶点单链表的表头指针向量的大小至少为() 。A. 
+B. C. D. n 2n e 2e 输入答案：C 正确答案：A 答题错误 
+45. 设有无向图G （如图所示），用Kruskal 算法构造最小生成树时，顺序选出的各边为（）。 
+A. B. C. 
+D. (1,3)(2,3)(3,5)(5,6)(4,6)(1,3)(2,3)(2,5)(5,6)(4,6)(5,6)(6,4)(4,1)(1,3)(3,2)(5,6)(4,6)(1,3)(1,2)(3,5) 
+输入答案：C 正确答案：D 答题错误 
+36. 对一棵二叉搜索树进行（）遍历时，得到的结点序列是一个有序序列。A. 
+B. C. D. 前序中序后序层次 输入答案：A 正确答案：B 答题错误 
+40. 若一个图中包含有k 个连通分量，若要按照深度优先搜索的方法访问所有顶点，则必须调用() 次深度优先搜索遍历的算法。A. 
+B. C. D. k 1k-1k+1 输入答案：C 正确答案：A 答题错误 
+41. 在一个具有n 个顶点和e 条边的无向图的邻接矩阵中，表示边存在的元素（又称为有效元素）的个数为() 。A. 
+B. C. D. n n*ee 2*e 输入答案：C 正确答案：D 答题错误 
+42. 对于一个有向图，若一个顶点的度为k1，出度为k2，则对应邻接表中该顶点单链表中的边结点数为() 。A. 
+B. C. D. k1k2k1-k2k1+k2 输入答案：B 答题正确 
+43. 对于一个有向图，若一个顶点的度为k1，出度为k2，则对应逆邻接表中该顶点单链表中的边结点数为() 。A. 
+B. C. D. k1k2k1-k2k1+k2 输入答案：C 答题正确 
+44. 在一个有向图的邻接表中，每个顶点单链表中结点的个数等于该顶点的() 。A. 
+B. C. D. 出边数入边数度数度数减1 输入答案：A 答题正确 
+45. 设图中有n 个顶点和e 条边，采用邻接表存储，进行深度优先搜索，其时间复杂度至多为（）。A. 
+B. C. 
+D. O(n+e)O(n*e)O(n*logn/log2)O(e*loge/log2) 
+输入答案：A 答题正确 
+39. 在一个具有n 个顶点的无向完全图中，所含的边数为() 。A. 
+B. C. D. n n(n-1)n(n-1)/2n(n+1)/2 输入答案：C 答题正确 
+17. 设有一个递归算法如图，试问计算X （X （8））时，需要计算（）次X 函数。 
+A. B. C. D. 8次9次16次18次 输入答案：B 正确答案：D 答题错误 
+21. 线索二叉树是一种（）结构。A. 
+B. C. D. 逻辑逻辑和存储物理线性 输入答案：B 正确答案：C 答题错误 
+34. 在一个具有n 个顶点的有向完全图中，所含的边数为() 。A. 
+B. C. D. n n(n-1)n(n-1)/2n(n+1)/2 输入答案：C 正确答案：B 答题错误 
+41. 设图中有n 个顶点和e 条边，采用邻接矩阵存储，进行深度优先搜索，其时间复杂度至 
+A. B. C. D. O(n+e)O(n*e)O(n*n)O(e*e) 输入答案：A 正确答案：C 答题错误 
+42. 对于一个具有n 个顶点和e 条边的无向图，进行拓扑排序时，总的时间为（）。A. 
+B. C. D. n n+1n-1n+e 输入答案：C 正确答案：A 答题错误 
+43. AOE 网络如图所示，这个工程最早可能结束的时间（） 
+。A. B. C. D. 35433118 答题正确 
+46. 在Hanoi 塔问题中，若A 塔上有3片圆盘，都要搬到C 塔上去，则下列语句（）是错误的。 
+A. B. C. 
+D. 第一步将最小圆盘从A 塔搬到B塔 
+第四步将最大圆盘从A 塔搬到C塔 第七步将最小圆盘从A 塔搬到C塔 需要8次才能完成工作 输入答案：D 正确答案：AD 答题错误 47. 下列说法正确的有：（） A. B. C. 间。 
+D. 在散列法中，采取闭散列法来解决冲突时，一般不要立刻做物理删除，否则在搜索理想情况下，在散列表中搜索一个元素的时间复杂度为Ｏ（１）。 
+在散列法中，一个可用的散列函数必须保证绝对不产生冲突。 
+在散列法中，采取开散列法来解决冲突时，其装载因子的取值一定在（０，１）之时会发生错误。 
+输入答案：CD 正确答案：AD 答题错误 48. 下列说法正确的有：（） 
+A. 存储图的邻接矩阵中，邻接矩阵的大小不但与图的顶点个数有关，而且与图的边数也有关。 
+B. 用邻接矩阵存储一个图时，在不考虑压缩存储的情况下，所占用的存储空间大小只与图中的顶点个数有关，而与图的边数无关。 
+C. 任何一个关键活动提前完成，那么整个工程就会提前完成。 
+D. 有n(n≥1)个顶点的有向强连通图最少有n 条边。输入答案：AC 
+正确答案：BD 答题错误 50. 下列说法正确的有：（） A. B. C. 
+D. 连通分量是无向图中的极小连通子图。 
+在AOE 网络中一定只有一条关键路径。 
+任何一个关键活动延迟，那么整个工程就会延迟。 
+有回路的有向图不能完成拓扑排序。输入答案： 
+正确答案：CD 答题错误 
+南邮数据结构实验一
+实验报告 （2014 / 2015学年第一学期） 课程名称 
+实验名称 数据结构 二叉树基本操作以及哈夫曼编码译码系统 
+实验时间 指导单位 指导教师年月日 学生姓名 学院(系) 班级学号 专业 二叉树的基本运算： 一、问题描述 
+1. 设计递归算法，实现二叉树的运算：删除一棵二叉树，求一棵二叉树的高度，求一棵二叉树中叶子节点数，复制一棵二叉树，交换一棵二叉树的左右子树 
+2. 设计算法，自上而下，自左向右即按层次遍历一棵二叉树 
+3. 设计main 函数，测试上述每个运算 
+二、系统分析和概要设计 
+首先用maketree 构造一棵二叉树，然后遍历二叉树，然后交换每个结点的左右子树，接着算出输得高度和叶子节点，最后删除。 
+三、详细设计 2. 核心算法 
+建立二叉树的void MakeTree(const T& x,BinaryTree& left,BinaryTree
+3. 算法分析 
+删除一棵二叉树，求一棵二叉树的高度，求一棵二叉树中叶子节点数，复制一棵二叉树等都是用递归的方法实现。 
+四、程序代码 流程图 #include template struct BTNode { }; template class BinaryTree { public: 
+BTNode() { } BTNode(const T &x) { } BTNode(const T &x,BTNode* l,BTNode* r) { } T element; BTNode* lChild,* rChild; element=x; lChild=l; rChild=r; element=x; lChild=rChild=NULL; lChild=rChild=NULL; BinaryTree(){root=NULL;} ~BinaryTree() {Clear();} void Copy(BinaryTree  bool IsEmpty()const{return root == NULL;} void Clear(); void Exchange(); bool Root(T  int GetHeight(); void MakeTree(const T& x,BinaryTree& left,BinaryTree  void BreakTree(T& x,BinaryTree& left,BinaryTree  void PreOrder(void (*Visit)(T   void LevelOrder(void (*Visit)(T  int Size(); BinaryTree(BinaryTree&t) 
+} root=Copy(t.root); 
+// void InOrder(void (*Visit)(T   
+// void PostOrder(void (*Visit)(T   
+BTNode* Copy(BTNode* t); BTNode * root; static int number; void Clear(BTNode*   void Exchange(BTNode* t); int GetHeight(BTNode* t); int Size(BTNode* t); void PreOrder(void (*Visit)(T &x),BTNode* t); void LevelOrder(void (*Visit)(T& x),BTNode* t); protected: private: 
+// void InOrder(void (*Visit)(T &x),BTNode* t); 
+// void PostOrder(void (*Visit)(T &x),BTNode* t); 
+}; template  
+bool BinaryTree::Root(T &x)const 
+{ } template  void BinaryTree::Clear() { } template  
+void BinaryTree::Clear(BTNode* &t) 
+{ 
+if(root) { } else return false; x=root->element; return true; Clear(root); if(t) 
+} } Clear(t->lChild); Clear(t->rChild); delete t; t=NULL; 
+template  
+void BinaryTree::MakeTree(const T& x,BinaryTree& left,BinaryTree& right) { 
+} template  
+void BinaryTree::BreakTree(T& x,BinaryTree& left,BinaryTree& right) { 
+} template  
+BTNode* BinaryTree::Copy(BTNode* t) 
+{ } template  void Visit(T &x) { 
+if(root||  root=new BTNode (x,left.root,right.root); left.root=right.root=NULL; if(!root||  x=root->element; left.root=root->lChild; right.root=root->rChild; delete root; root=NULL; if(!t) return NULL; BTNode*q=new BTNode(t->element); q->lChild=Copy(t->lChild); q->rChild=Copy(t->rChild); return q; 
+} template  
+void BinaryTree::PreOrder(void (*Visit)(T& x)) 
+{ } template  
+void BinaryTree::PreOrder(void (*Visit)(T& x),BTNode* t) 
+{ } template  void BinaryTree::Exchange() { } template  
+void BinaryTree::Exchange(BTNode* t) 
+{ } template  int BinaryTree::GetHeight() { } 
+PreOrder(Visit,root); if(t) { } Visit(t->element); PreOrder(Visit,t->lChild); PreOrder(Visit,t->rChild); Exchange(root); if(!t) return; BTNode* temp; temp=t->lChild; t->lChild=t->rChild; t->rChild=temp; Exchange(t->lChild); Exchange(t->rChild); return GetHeight(root); 
+int BinaryTree::GetHeight(BTNode* t) 
+{ } template  int BinaryTree::number=0; template  int BinaryTree::Size() { } template  
+int BinaryTree::Size(BTNode* t) 
+{ } template  
+void BinaryTree::LevelOrder(void (*Visit)(T& x)) 
+{ } 
+int templ; int tempr; if(!t) return 0; templ=GetHeight(t->lChild); tempr=GetHeight(t->rChild); if(templ++>tempr++) return templ; return tempr; else Size(root); return number; if(t!=NULL) { } Size(t->lChild); if(t->lChild ==NULL  Size(t->rChild); return number; PreOrder(Visit,root); 
+void BinaryTree::LevelOrder(void (*Visit)(T& x),BTNode* t) 
+{ } void main() { 
+BTNode *quene[50],*p; int pre=1,rear=1; quene[++pre]=t; while(pre!=0) { } p=quene[++rear]; cout<element<<" "; if(p->lChild !=NULL) quene[++pre]=p->rChild ; quene[++pre]=p->lChild ; if(p->rChild !=NULL) BinaryTree  a,b,x,y,z; y.MakeTree('E',a,b); z.MakeTree('F',a,b); x.MakeTree('C',y,z); y.MakeTree('D',a,b); z.MakeTree('B',y,x); cout<<"二叉树z 的先序遍历:"<<<<"层次遍历二叉树:"; z.LevelOrder(Visit); cout< q(z); cout<<"复制的二叉树q 的先序遍历:"<<<<"树的高度:"; cout<<<"叶子节点数量:"; cout< 
+} cout<<"二叉树左右子树交换后的先序遍历:"<< 
+五、测试用例和运行结果 
+测试用例如main 函数中所示，结果如下图所示。 
+哈夫曼编码和译码系统： 一、问题描述 
+1. 所设计的系统重复显示以下菜单 
+B-----建树：读入字符集和各字符频度 
+T-----遍历：先序和中序遍历二叉树 
+E-----生成代码：根据已经简称的哈夫曼数生成代码，产生各字符的哈夫曼树 
+C-----编码：输入由字符集中字符组成的任意字符串，利用已经生成的哈夫曼编码进行编码，显示编码结果，并将输入的字符串及其编码结果分别保存在磁盘文件textfile.txt 和codefile.txt 中 
+D-----译码：读入codefile.txt ，利用已经建成的哈夫曼树进行译码，并将译码结果存入磁盘文件result.txt 
+P-----打印：屏幕显示文件textfile.txt 、codefile.txt 、 resultfile.txt 
+X-----退出 二、系统分析和概要设计 
+主要包括实现主菜单以及菜单里每个函数的功能（创建函数实现接收字符，接收权值，构建 
+哈夫曼树并保存文件，编码函数实现对用户输入的秘文进行哈夫曼编码，即对每个字符翻译出其密文代码并保存文件，译码函数实现译码即输出密文的源码）。 
+三、详细设计 2. 核心算法 
+实现优先权队列的Append(x)以及Serve(x)函数以及AdjustUp() 3. 算法分析 
+时间复杂度均为O(n) 四、程序代码 
+#include  #include  using namespace std; int *weightArray; string s; 
+string *codeArray; template  struct BTNode { BTNode() { 
+lChild = rChild = NULL; } BTNode(const T  lChild = rChild = NULL; } 
+BTNode(const T& x, BTNode* l, BTNode* r) { 
+element = x; lChild = l; rChild = r; } T element; AdjustDown()函数 、 }; template class BinaryTree { public: BinaryTree() { } 
+~BinaryTree() {Clear();} bool isEmpty() const { } 
+void Clear() { } bool Root(T  
+void makeTree(const& x, BinaryTree& left, BinaryTree  void breakTree(T& x, BinaryTree& left, BinaryTree  void preOrder() { } 
+void inOrder() { } void postOrder() { } void leaf() { } void visit(T& x) root = NULL; return root == NULL; Clear(root); preOrder(root); inOrder(root); postOrder(root); prePrint(root); }; } BTNode* root; 
+void Clear(BTNode* t); void prePrint(BTNode* t); void preOrder(BTNode* t); void inOrder(BTNode* t); void postOrder(BTNode* t); 
+cout << x << " "; protected: private: template  
+bool BinaryTree::Root(T& x) const { } 
+template  
+void BinaryTree::makeTree(const& x, BinaryTree& left, BinaryTree& right) { } 
+template  
+void BinaryTree::breakTree(T& x, BinaryTree& left, BinaryTree& right) { 
+if (root) { } else 
+return false; x = root -> element; return true; 
+if (root ||   
+root = new BTNode(x, left.root, right.root); left.root = right.root = NULL; 
+if (!root ||   x = root -> element; left.root = root -> lChild; right.root = root -> rChild; delete root; root = NULL; 
+template  
+void BinaryTree::preOrder(BTNode* t) { } 
+template  
+void BinaryTree::inOrder(BTNode* t) { } 
+template  
+void BinaryTree::postOrder(BTNode* t) { } 
+template  
+void BinaryTree::Clear(BTNode* t) { 
+if (t) { } 
+visit(t -> element); preOrder(t -> lChild); preOrder(t -> rChild); 
+if (t) { } 
+inOrder(t ->lChild); visit(t -> element); inOrder(t -> rChild); 
+if (t) { } 
+postOrder(t -> lChild); postOrder(t -> rChild); visit(t -> element); 
+if(t) { 
+Clear(t->lChild); Clear(t->rChild); delete t; 
+} } template  
+void BinaryTree::prePrint(BTNode* t) { } 
+template class PrioQueue { }; template  
+PrioQueue::PrioQueue(int mSize) { 
+if (t) { } 
+if ((t -> lChild == NULL) && (t -> rChild == NULL)) { } 
+prePrint(t -> lChild); prePrint(t -> rChild); 
+visit(t ->element); return; public: 
+PrioQueue(int mSize=20); ~PrioQueue(){delete[] q;}; 
+bool IsEmpty() const{return n==0;} bool IsFull() const{return n==maxSize;} void Append(const T   void Serve(T  
+void AdjustDown (int r, int j); void AdjustUp (int j); T* q; 
+int n,maxSize; private: 
+maxSize=mSize; q=new T[maxSize]; 
+n=0; template  
+void PrioQueue::AdjustUp (int j) { 
+int i=j;T temp=q[i]; while (i>0 && temp q[i]=q[(i-1)/2]; i=(i-1)/2; } q[i]=temp; } template  
+void PrioQueue::Append(const T &x) { } 
+template  
+void PrioQueue::Serve(T& x) { } 
+template  
+void PrioQueue::AdjustDown (int r, int j) { 
+if(IsFull()) { } q[n++]=x; AdjustUp(n-1); 
+cout<< "Overflow"; return; if(IsEmpty()) { } 
+x=q[0];q[0]=q[--n]; AdjustDown (0, n-1); 
+cout<< "Underflow"; return; 
+int child = 2 * r + 1; T temp = q[r]; 
+} { } q[(child - 1) / 2] = temp; 
+if ((child < j)   if (temp <= q[child]) break; q[(child - 1) / 2] = q[child]; child = 2 * child + 1; 
+template  
+class HfmTree: public BinaryTree { }; 
+template  
+void HfmTree::decode(string decodeString) { 
+public: 
+operator T()const {return weight;} T getW(){return weight;} void putW(const T& x) { } 
+void SetNull(){root=NULL;} void code(string& c) { } 
+void decode(string s); T weight; 
+void code(BTNode* t, string  code(root, c); weight=x; private: if (codeArray == NULL) { } BTNode* searchNode = root; 
+for (int i = 0; i < decodeString.length(); i++) 
+cout << "尚未编码！" << endl; return; 
+} } 
+if (searchNode -> lChild == NULL && searchNode -> rChild == NULL) { } 
+cout << endl; 
+T value = searchNode -> element; for (int j = 0; j < s.length(); j++) { 
+if (value == weightArray[j]) { } 
+cout << s[j]; break; 
+if (decodeString[i] != '0' && decodeString[i] != '1') { } 
+if (searchNode -> lChild == NULL && searchNode -> rChild == NULL) { } 
+if (decodeString[i] == '0') searchNode = searchNode -> lChild; if (decodeString[i] == '1') searchNode = searchNode -> rChild; 
+T value = searchNode -> element; for (int j = 0; j < s.length(); j++) { } 
+searchNode = root; 
+if (value == weightArray[j]) { } 
+cout << s[j]; break; 
+cout << "码格式不正确！" << endl; return; 
+} template  
+void HfmTree::code(BTNode* t, string& c) 
+} template  
+HfmTree CreateHfmTree (T *w,int n) { 
+PrioQueue > pq(n); HfmTree x,y,z; for (int i=0;i 
+if (t) { } 
+if (t -> lChild == NULL && t -> rChild == NULL) { } 
+if (t -> lChild != NULL) { } if (t -> rChild != NULL) { } 
+string rs; rs.assign(c); rs.append("1"); code(t -> rChild, rs); string ls; ls.assign(c); ls.append("0"); code(t -> lChild, ls); 
+for (int i = 0; i < s.length(); i++) { } 
+if (t -> element == weightArray[i]) { } 
+codeArray[i] = c; //cout << "NO" << i << " "; 
+cout << "字符" << s[i] << "的权重是" << weightArray[i] << ", break; 
+哈弗曼编码是" << codeArray[i] << endl; 
+{ z.makeTree(w[i],x,y); z.putW(w[i]); pq.Append(z); z.SetNull(); } for (i=1;i pq.Serve(x); 
+z.makeTree(x.getW()+y.getW(),x,y); z.putW(x.getW()+y.getW()); 
+pq.Append(z); z.SetNull(); pq.Serve(y); pq.Serve(z); return z; } void input(HfmTree& p) { 
+cout << "请输入需要编码的字符组成的字符串: "; cin >> s; 
+weightArray = new int[s.length()]; codeArray = new string[s.length()]; for (int i = 0; i < s.length(); i++) { } 
+p = CreateHfmTree(weightArray, s.length()); //p.postOrder(); 
+cout << "请输入第" << (i + 1) << "个字符的权值：" << endl; cin >> weightArray[i]; 
+} { void createCode(HfmTree& p) if (codeArray == NULL) { } 21 
+cout << "树为空！" << endl; return; 
+string c; p.code(c); } 
+void encode() { if (codeArray == NULL) { cout << "尚未编码！" << endl; return; 
+} string encodeString; 
+cout << "请输入需要编码的字符串: "; cin >> encodeString; 
+cout << "\n经过编码的码值为："; 
+for (int i = 0; i < encodeString.length(); i++) { for (int j = 0; j < s.length(); j++) { if (s[j] == encodeString[j]) { cout << codeArray[j]; break; 
+} } } cout << endl; } 
+void main() { bool flag = true; HfmTree p; string decodeString; while (flag) { cout<<"******************************B—******************************"<<<"******************************T—******************************"< 
+cout<<"******************************E 
+— — 22 —建—遍生 成 编 树历码 **************************"< 
+cout<<"******************************Ccout<<"******************************Dcout<<"******************************Xcout << "请输入指令："; char c; cin >> c; cout << endl; switch (c) { case 'B': 
+input(p); break; if (p != NULL) { } else 
+cout << "尚未建树！" << endl; break; createCode(p); break; encode(); break; 
+23 ——— ——— 编译退 码码出 
+******************************"<<< 
+case 'T': 
+cout << "前序遍历："; p.preOrder(); cout << endl; cout << "中序遍历："; p.inOrder(); cout << endl; cout << "后序遍历："; p.postOrder(); cout << endl; 
+case 'E': case 'C': case 'D': } } } 
+cout << "请输入需要破译的编码："; cin >> decodeString; p.decode(decodeString); break; flag = false; break; 
+case 'X': 五、测试用例和运行结 24 六、实验小结 
+通过这次实验，我对一个二叉树以及哈夫曼有着更加全面深刻的认识，会采用不同的数据存储方式，如之前的栈，现在的二叉树等，可以提高了程序的运行效率。在编写这个程序的过程中，对如哈弗曼树最小路径的求取，哈弗曼编码及译码的应用范围，二叉树的复制及遍历等问题。在这次实验，体会到了编完程序的满足感，也从中发现自己平时学习的不足和薄弱的地方加以改进。 
+25 
+南邮数据结构实验三
+实验报告 （2015 / 2016 学年第一 学期） 课程名称 实验名称 数据结构 
+图的基本运算及飞机换乘次数最少问题 
+实验时间 指导单位 指导教师 2015 年 12 月 4 日 计算机科学与技术系 黄海平 学生姓名 学院(系) 陈明阳 贝尔英才 班级学号 Q14010119 专业 信息科技强化班 实验报告 1 
+#include #include using namespace std; const int INF = 2147483647; 
+enum ResultCode { Underflow , Duplicate , Failure , Success , NotPresent , OutOfBounds }; template  class Graph //抽象类 { 
+public : 
+virtual ResultCode Insert(int u, int v, T w) = 0; virtual ResultCode Remove(int u, int v) = 0; virtual bool Exist(int u, int v)const = 0; protected : 
+int n, e; }; template  
+class MGraph :public Graph  //邻接矩阵类 { 
+public : 
+MGraph(int mSize, const T noedg); ~MGraph(); 
+ResultCode Insert(int u, int v, T w); ResultCode Remove(int u, int v); bool Exist(int u, int v)const ; int Choose(int *d, bool *s); 
+void Dijkstra(int v, T *d, int *path); 
+protected : T **a; T noEdge; }; template  
+MGraph ::MGraph(int mSize , const T noedg ) { 
+n = mSize ; e = 0; 
+noEdge = noedg ; a = new T *[n]; 
+for (int i = 0; i { a[i] = new T [n]; for (int j = 0; j a[i][j] = noEdge; a[i][i] = 0; } 2 } template  MGraph ::~MGraph() { for (int i = 0; i delete []a[i]; delete[]a; template  
+ResultCode MGraph ::Insert(int u , int v , T w ) { 
+if (u <0 || v <0 || u >n - 1 || v >n - 1 || u == v ) 
+return Failure ; return Duplicate ; if (a[u ][v ] != noEdge) a[u ][v ] = w ; a[v ][u ] = w ; e++; } 
+return Success ; template  
+ResultCode MGraph ::Remove(int u , int v ) { 
+if (u <0 || v <0 || u >n - 1 || v >n - 1 || u == v ) 
+return Failure ; if (a[u ][v ] == noEdge) return NotPresent ; a[u ][v ] = noEdge; 
+a[v ][u ] = noEdge; e--; return Success ; } template  
+bool MGraph ::Exist(int u , int v ) const { 
+if (u <0 || v <0 || u >n - 1 || v >n - 1 || u == v || a[u ][v ] == noEdge) } 
+return false ; return true ; template  
+int MGraph ::Choose(int *d , bool *s ) //求最小d[i] { 
+int i, minpos; T min; 3 min = INF; minpos = -1; } if (d [i] <= min&&!s [i]) { min = d [i]; minpos = i; } for (i = 0; i return minpos; template  
+void MGraph ::Dijkstra(int v , T *d , int *path ) //迪杰斯特拉算法 { 
+int i, k, w; if (v <0 || v >n - 1) throw OutOfBounds ; bool *s = new bool [n]; for (i = 0; i 
+{ 
+s[i] = false ; d [i] = a[v ][i]; if (i != v &&d [i] 
+path [i] = -1; } s[v ] = true ; d [v ] = 0; for (i = 1; i { 
+k = Choose(d , s); s[k] = true ; 
+for (w = 0; w if (!s[w] && (d [k] + a[k][w]) 
+d [w] = d [k] + a[k][w]; path [w] = k; } 
+} 源.cpp #include #include 4 
+#include"Graph.h" using namespace std; int main() { 
+int n, m; 
+cout << " 请输入城市个数:"; cin >> n; 
+cout << " 请输入航线条数:"; cin >> m; 
+MGraph A(n, INF); int c, f; 
+cout << " 请输入每条航线的起点和终点: " << endl; for (int i = 0; i 
+{ 
+cout << " 航线" << i + 1 << ": "; cin >> c >> f; A.Insert(c, f, 1); } 
+char s; do { int v, w; 
+cout << " 请输入你的起点和终点:"; cin >> v >> w; 
+while (v<0 || w<0 || w>n - 1 || v>n - 1) 
+{ cin >> v >> w; } 
+cout << " 输入错误! ，没有该城市:"; 
+int *b = new int [n]; int *d = new int [n]; int *path = new int [n]; A.Dijkstra(v, d, path); int e = n - 1; 
+int j, i,k = 0; b[j] = -2; { j = w; while (path[j] != -1) { b[e] = path[j]; e--; j = path[j]; for (j = 0; j 5 } 
+cout << " 这两点间无线路!" << endl; { 
+cout << " 从" << v << " 城市到" << w << " 城市的换乘次数最小的线路方案为:"; for (k = 0; k 
+{ if (b[k] != -2) cout << b[k] << "," ; } 
+if (e == n - 1 || d[j] == INF) else 
+cout << w << endl; } } 
+cout <<" 看来你钱比较多" << endl; 
+if (w == v) delete[]b; delete[]d; delete[]path; 
+cout << " 请问是否继续查询路线? 请输入Y/N:"; cin >> s; 
+while (s != 'Y' &&s != 'y' &&s != 'n' &&s != 'N' ) { 
+return 0; } 
+cout << " 请问是否继续查询路线? 请输入Y/N:"; cin >> s; } 
+} while (s == 'Y' || s == 'y' ); 
+运行截图： 6 实验报告 7 8 
