@@ -1,10 +1,28 @@
-# 写在前面
+# Foreword
 
-10/31 万圣节，很遗憾，封校期间只能我在大活里对着电脑敲键盘\
-中午就配置好了C的环境，可是因为突如其来的创新杯材料完善任务让我直接肝了一下午\
-好了，回归正题\
-毋庸置疑，数据结构是一门程序员必备的课程，而由于我前段时间的摆烂行为，我已经缺了好多节课了，准确地说，我已经不知道讲到哪了\
-所以打算利用这周金工实习补一下之前缺的课程\
-应该会在这个仓库里复现所有的课程代码，包括书本上有的代码及课后习题\
+Today is Halloween，It is regrettable that i have to type code in the 101 because of
+the pandemic.  ~~***(Secretly, Let the COVID-19 to Die.)***~~.
 
-# Glod for myself
+As a matter of fact, I had already configured the C environment. However, the sudden task of perfecting
+the 'Imagine Cup' materials immediately disrupted my rhythm. ~~*(Wasted an afternoon and didn't even make the finals)*~~
+
+All right, let's cut the crap and get back to business.
+
+It goes without saying that data structure is a required course for programmers. And because of my
+resistance to C language, I had missed so many lessons, to be precise, I don't know where they are 
+anyone. In this case, I plan to use this internship week to make up for the lack of courses.
+
+
+<font color=DeepSkyBlue>
+In this repository, it will mainly contain the code that has been implemented 
+in the book and the answers to the exercises after class
+</font>
+
+
+
+# Bless myself - Timer shaft
+# 11/19
+
+很遗憾，10.31制定的计划还是没有达成，世界上的一切事物都在寻求一个更为舒适的状态，\
+所以……我选择了写 Python （我自责、我检讨、让我去死吧……
+期末提前了，in which case that 
