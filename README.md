@@ -14,8 +14,8 @@ anyone. In this case, I plan to use this internship week to make up for the lack
 
 
 <span style="color: DeepSkyBlue; ">
-In this repository, it will mainly contain **the code that has been implemented 
-in the book and the answers to the exercises after class**
+In this repository, it will mainly contain the code that has been implemented 
+in the book and the answers to the exercises after class
 </span>
 
 
