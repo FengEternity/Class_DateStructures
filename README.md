@@ -21,7 +21,8 @@ In this repository, it will mainly contain the code that has been implemented in
 So regrettably, the plan described above has not been started to this day.
 \
 \
-**Everything in the world  is seeking a comfortable state.** I'm not exception.
+**Everything in the world  is seeking a comfortable state.** 
 \
 \
+I'm not exception.
 So...I chose to  continue to learning Python ~~(self-condemned...review-myself...~~There's even more bad news that the final examination was brought forward, in which case that I have to go back to data structures.
