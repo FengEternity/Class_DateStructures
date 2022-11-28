@@ -9,7 +9,7 @@ All right, let's cut the crap and get back to business.
 It goes without saying that data structure is a required course for programmers. And because of my resistance to C language, I had missed so many lessons, to be precise, I don't know where they are  anyone. In this case, I plan to use this internship week to make up for the lack of courses.
 
 
-<span style="color: DeepSkyBlue; ">
+<span style="color: #00c4ff; ">
 In this repository, it will mainly contain the code that has been implemented in the book and the answers to the exercises after class
 </span>
 
@@ -26,3 +26,4 @@ So regrettably, the plan described above has not been started to this day.
 \
 I'm not exception.
 So...I chose to  continue to learning Python ~~(self-condemned...review-myself...~~There's even more bad news that the final examination was brought forward, in which case that I have to go back to data structures.
+
