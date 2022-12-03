@@ -1,156 +1,52 @@
-//////#include<stdio.h>
-//////
-//////void days(int m, int n);
-//////
-//////int main() {
-//////    int m, n;
-//////    printf_s("Please enter the year-month in the format (2021-5):");
-//////    scanf_s("%d-%d", &m, &n);
-//////    days(m, n);
-//////    return 0;
-//////}
-//////
-//////void days(int m, int n) {
-//////    if (n == 4 || n == 6 || n == 8 || n == 11) {
-//////        printf("day = 30");
-//////    }
-//////    if (n == 1 || n == 3 || n == 5 || n == 7 || n == 9 || n == 10 || n == 12) {
-//////        printf("day = 31");
-//////    }
-//////    if (n == 2) {
-//////        if ((m % 400 == 0) || (m % 4 == 0 && m % 100 != 0)) {
-//////            printf("day = 29");
-//////        } else {
-//////            printf("day = 28");
-//////        }
-//////    }
-//////}
-////
-//////#include <stdio.h>
-//////int main()
-//////{
-//////    int year,month,day,leapyear;
-//////    while(scanf("%d %d\n",&year,&month)!=EOF)
-//////    {
-//////        leapyear=year%4==0&&year%100!=0||year%400==0;
-//////        switch(month)
-//////        {
-//////            case 1:
-//////            case 3:
-//////            case 5:
-//////            case 7:
-//////            case 8:
-//////            case 10:
-//////            case 12:day=31;break;
-//////            case 4:
-//////            case 6:
-//////            case 9:
-//////            case 11:day=30;break;
-//////            case 2:day=28+leapyear;break;
-//////        }
-//////        printf("%d\n",day);
-//////    }
-//////    return 0;
-//////}
-////
-////#include <stdio.h>
-////#include <math.h>
-////
-////int check_a(double a);
-////
-////double delta(double a, double b, double c);
-////
-////void output_root(int k, double a, double b, double d);
-////
-////int root(double d);
-////
-////int main() {
-////    double a, b, c;
-////    printf("Input three numbers to represent the coefficients of the quadratic equation with one variable\n");
-////    scanf("%lf %lf %lf", &a, &b, &c);
-////    if (check_a(a) == 0) printf("It's not a quadratic equation with one variable\n");
-////    else output_root(root(delta(a, b, c)), a, b, delta(a, b, c));
-////    return 0;
-////}
-////
-////// 根据a是否等于0判断是否是二元一次方程
-////int check_a(double a) {
-////    if (a == 0) return 0;
-////    else return 1;
-////}
-////
-////// 计算判别式b*b-4ac
-////double delta(double a, double b, double c) {
-////    double d;
-////    d = b * b - 4 * a * c;
-////    return d;
-////}
-////
-////// 判断根的情况
-////int root(double d) {
-////    if (d == 0) {
-////        printf("The equation has two identical real roots\n");
-////        return 0;
-////    } else if (d > 0) {
-////        printf("The equation has two different real roots\n");
-////        return 1;
-////    } else {
-////        printf("The equation has no real roots\n");
-////        return -1;
-////    }
-////}
-////
-////// 根据不同的情况，输出根
-////void output_root(int k, double a, double b, double d) {
-////    double x1, x2;
-////    if (k == 1) {
-////        x1 = -b / (2 * a) + sqrt(d) / (2 * a);
-////        x2 = -b / (2 * a) - sqrt(d) / (2 * a);
-////        printf("x1=%lf ", x1);
-////        printf("x2=%lf\n", x2);
-////    }
-////    if (k == 0) {
-////        x1 = x2 = -b / (2 * a);
-////        printf("x1=x2=%lf\n", x1);
-////    }
-////    if (k == -1) {
-////        printf("x1=%lf+%lfi ", -b / (2 * a), sqrt(-d) / (2 * a));
-////        printf("x2=%lf-%lfi\n", -b / (2 * a), sqrt(-d) / (2 * a));
-////    }
-////}
-//
-///*每行8个的形式输出100-999内的质数*/
-//#include<stdio.h>
-//#include<math.h>
-//
-//int judge_prime(int n);
-//
-//int main() {
-//    int n = 100, judge, c = 1;
-//    for (n; n < +999; n++) {
-//        judge = judge_prime(n);
-//        if (judge != 0) {
-//            printf("%4d", n);
-//            if (c % 8 == 0) {
-//                printf("\n");
-//            }
-//            c++;
-//        }
-//    }
-//    return 0;
-//}
-//
-//int judge_prime(int n) {
-//    int judge = 1;
-//    if (n >= 2) {
-//        int k, m;
-//        k = (int) sqrt(n);
-//        for (m = 2; m <= k; m++) {
-//            if (n % m == 0) {
-//                judge = 0;
-//            }
-//        }
-//    }
-//    return judge;
-//}
+/*编写函数int fun(int lim, int aa[MAX]),该函数的功能是求出小于或等于lim的所有素数并放在aa数组中,
+该函数返回所求出的素数的个数。
+注意:部分源程序给出如下。
+请勿改动main函数和其他函数中的任何内容,仅在函数fun的花括号中填入所编写的若干语句。
+试题程序: */
+#include<stdio.h>
+#include<stdlib.h>
+#define MAX 100
+int fun(int lim, int aa[MAX])
+{
+/**********Begin**********/
+    int i,j,ret=0;
+    for(i=2;i<=lim;i++)
+    {
+        for(j=2;j*j<=i;j++)
+        {
+            if(i%j==0) break;
+            if(j*j>i) aa[ret++]=i;
+        }
+    }
+    return ret;
 
+
+/**********End**********/
+}
+int main()
+{
+    FILE *wf,*in;
+    int limit,i,k,sum;
+    int aa[MAX];
+    printf("输入一个整数");
+    scanf("%d",&limit);
+    sum=fun(limit,aa);
+    for(i=0;i<sum;i++)
+    {
+        if(i%10==0&&i!=0)    /*每行输出10个数*/
+            printf("\n ");
+        printf("%5d ",aa[i]);
+    }
+/******************************/
+    wf=fopen("2.out","w");
+    in=fopen("2.dat","r");
+    fscanf(in,"%d",&k);
+    sum=fun(k,aa);
+    for(i=0;i<sum;i++)
+        fprintf(wf,"%d\n",aa[i]);
+    fclose(wf);
+    fclose(in);
+/*****************************/
+    system("pause");
+    return 0;
+}

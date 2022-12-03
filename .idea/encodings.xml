@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/test.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/test.c" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/../../Tencent Files/2605958732/FileRecv/4.8 每行8个的形式输出100-999内的质数.c" charset="GBK" />
   </component>
 </project>
